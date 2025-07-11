@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id="box">
+
+    
+    <header class="container our">
+        <img src="./img/Group 3 (1).png" alt="sad">
+        <nav>
+            <ul>
+                <li><a href="#">что это?</a></li>
+                <li><a href="#">что это?</a></li>
+                <li><a href="#">что это?</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="container d1">
+            <div class="d1-text">
+                <h2>Инновационные коврики <br>
+                    для автомобиля</h2>
+                <button class="btn" id="btn">ЗАКАЗАТЬ</button>
+            </div>
+            <img src="./img/коврф 1.png" alt="sad">
+        </section>
+        <section class="container d2">
+            <h1>Что такое EVA коврики?</h1>
+            <div class="ota">
+                <div class="card">
+                    <img src="./img/kov1-1-300x225 1.jpg" alt="sad">
+                    <h2>РАСЦВЕТКА</h2>
+                    <p>Автомобильные коврики EVA можно <br> заказать и в индивидуальных размерах и в <br> разных цветах,
+                        которые
+                        комбинируется на <br> выбор покупателя с такими же цветами <br> окантовочной полипропиленовой
+                        ременной <br>
+                        ленты.</p>
+                </div>
+                <div class="card">
+                    <img src="./img/kov1-1-300x225 1.jpg" alt="sad">
+                    <h2>РАСЦВЕТКА</h2>
+                    <p>Автомобильные коврики EVA можно <br> заказать и в индивидуальных размерах и в <br> разных цветах,
+                        которые
+                        комбинируется на <br> выбор покупателя с такими же цветами <br> окантовочной полипропиленовой
+                        ременной <br>
+                        ленты.</p>
+                </div>
+                <div class="card">
+                    <img src="./img/kov1-1-300x225 1.jpg" alt="sad">
+                    <h2>РАСЦВЕТКА</h2>
+                    <p>Автомобильные коврики EVA можно <br> заказать и в индивидуальных размерах и в <br> разных цветах,
+                        которые
+                        комбинируется на <br> выбор покупателя с такими же цветами <br> окантовочной полипропиленовой
+                        ременной <br>
+                        ленты.</p>
+                </div>
+            </div>
+        </section>
+        <section class="fart">
+            <div class="ota2">
+                <div class="bola">
+                    <img src="./img/otz2 1.jpg" alt="">
+                    <p>Покупала у ребят коврики для Хундай <br> солярис в подарок молодому человеку. <br> Все очень
+                        понравилось.
+                        Буду советовать <br> только вас.</p>
+                </div>
+                <div class="bola">
+                    <img src="./img/otz2 1.jpg" alt="">
+                    <p>Покупала у ребят коврики для Хундай <br> солярис в подарок молодому человеку. <br> Все очень
+                        понравилось.
+                        Буду советовать <br> только вас.</p>
+                </div>
+                <div class="bola">
+                    <img src="./img/otz2 1.jpg" alt="">
+                    <p>Покупала у ребят коврики для Хундай <br> солярис в подарок молодому человеку. <br> Все очень
+                        понравилось.
+                        Буду советовать <br> только вас.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="container br">
+                <div class="f3">
+            <h2>МЫ В СОЦИАЛЬНЫХ СЕТЯХ</h2>
+            <img src="./img/512px-Instagram_new 1.png" alt="sad">
+        </div>
+        <div class="f2">
+            <h2>КОНТАКТНЫЕ ТЕЛЕФОНЫ</h2>
+            <p>+375 29 292-29-29 (VEL)</p>
+            <p>+375 33 333-33-33 (МТС)</p>
+        </div>
+        <div class="f1">
+            <h2>О НАС</h2>
+            <p>Индивидуальное изготовление <br> EVA ковриков для вашего автом</p>
+        </div>
+    </footer>
+    </div>  
+    <div id="modal">
+        <h2>ФОРМА ЗАЯВКИ</h2>
+        <input type="text" placeholder="ism">
+        <input type="text" placeholder="ism">
+        <textarea placeholder="matn yozing"></textarea>
+        <button class="btn" id="send">отправить</button>
+    </div>
+     <script>
+        const btn=document.getElementById("btn")
+        const send=document.getElementById("send")
+        const box=document.getElementById("box")
+        const modal=document.getElementById("modal");
+        btn.addEventListener("click",()=>{
+            box.style.filter="blur(20px)";
+            modal.style.display="block";
+        });
+        send.addEventListener("click",()=>{
+            box.style.filter="blur(0px)";
+            modal.style.display="none";
+        });
+    </script>
+
+</body>
+
+</html>
